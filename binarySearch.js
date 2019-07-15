@@ -1,4 +1,4 @@
-const binarySearch = async (arr, x, start, end) => {
+const binarySearch = (arr, x, start, end) => {
   if (start > end) return -1;
   let mid = Math.floor((start + end) / 2);
   if (arr[mid] === x) return mid;
